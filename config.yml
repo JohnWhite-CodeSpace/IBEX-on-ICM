@@ -1,0 +1,27 @@
+# instructions: HiCullGoodTimes.txt/LoGoodTimes.txt
+# quaternion_file_type: .attdba/.attd2a
+# file_type: lode/hide/lohb/hihb - we dont care right now for lohb and hihb files
+# timespan: Every year/ Every half year/ All at once/ by channels
+# divide_by_channels: On/Off
+#translate_hex: Translate to int/ replace with '0'
+# save_file_prefix: what it says
+TensorCreator:
+  CreatorParams:
+    instruction:
+    quaternion_file_type:
+    file_type:
+    timepsan:
+    divide_by_channels:
+    translate_hex:
+  FileParams:
+    save_file_prefix_path:
+    path_to_main_dir:
+
+ChannelAnalyzer:
+  hi_tensor_directory:
+  lo_tensor_directory:
+  filename_prefix_hi:
+  filename_prefix_lo:
+  hi_instruction_file:
+  lo_instruction_file:
+
